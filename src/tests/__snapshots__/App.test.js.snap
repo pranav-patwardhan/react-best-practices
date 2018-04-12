@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders and matches our snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to Loomi UI
+    </h1>
+  </header>
+  <p
+    className="App-intro"
+  >
+    Demo implementation 
+    <code>
+      Redux
+    </code>
+     Happy Coding :).
+  </p>
+  <div>
+    <strong>
+      This is just a test for shallow 
+      Surj
+    </strong>
+  </div>
+  <div>
+    <strong>
+      This is just a test for shallow 
+      Al
+    </strong>
+  </div>
+  <button
+    className="checkClick"
+    onClick={[Function]}
+  >
+    Get Assist Data
+  </button>
+  <ul>
+    <li />
+    <li />
+    <li />
+  </ul>
+</div>
+`;
+
+exports[`[object Object] renders and matches our snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to Loomi UI
+    </h1>
+  </header>
+  <p
+    className="App-intro"
+  >
+    Demo implementation 
+    <code>
+      Redux
+    </code>
+     Happy Coding :).
+  </p>
+  <div>
+    <strong>
+      This is just a test for shallow 
+      Pranav
+    </strong>
+  </div>
+  <button
+    className="checkClick"
+    onClick={[Function]}
+  >
+    Get Assist Data
+  </button>
+  <ul>
+    <li />
+    <li />
+    <li />
+  </ul>
+</div>
+`;
+
+exports[`class App extends _react.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            virtualList: [] };
+
+    }
+
+    componentWillMount() {
+        // this.getAll();
+    }
+
+    getAll() {
+
+        let currentThis = this;
+        this.props.getAllAssist().
+        then(function (res) {
+            data = res.payload.data;
+            currentThis.setState({ virtualList: data });
+        }, function (err) {
+            console.log("res", err);
+            alert(err);
+        });
+
+    }
+
+    render() {
+        console.log(this.state.virtualList);
+        return (
+            _react2.default.createElement('div', { className: 'App', __source: { fileName: _jsxFileName, lineNumber: 35 }, __self: this },
+                _react2.default.createElement('header', { className: 'App-header', __source: { fileName: _jsxFileName, lineNumber: 36 }, __self: this },
+                    _react2.default.createElement('img', { src: _logo2.default, className: 'App-logo', alt: 'logo', __source: { fileName: _jsxFileName, lineNumber: 37 }, __self: this }),
+                    _react2.default.createElement('h1', { className: 'App-title', __source: { fileName: _jsxFileName, lineNumber: 38 }, __self: this }, 'Welcome to Loomi UI')),
+
+                _react2.default.createElement('p', { className: 'App-intro', __source: { fileName: _jsxFileName, lineNumber: 40 }, __self: this }, 'Demo implementation ',
+                    _react2.default.createElement('code', { __source: { fileName: _jsxFileName, lineNumber: 41 }, __self: this }, 'Redux'), ' Happy Coding :).'),
+
+                _react2.default.createElement('button', { className: 'checkClick', onClick: () => this.getAll(), __source: { fileName: _jsxFileName, lineNumber: 43 }, __self: this }, 'Get Assist Data'),
+                _react2.default.createElement('ul', { __source: { fileName: _jsxFileName, lineNumber: 44 }, __self: this },
+                    _react2.default.createElement('li', { __source: { fileName: _jsxFileName, lineNumber: 45 }, __self: this }, this.state.virtualList.id),
+                    _react2.default.createElement('li', { __source: { fileName: _jsxFileName, lineNumber: 46 }, __self: this }, this.state.virtualList.title),
+                    _react2.default.createElement('li', { __source: { fileName: _jsxFileName, lineNumber: 47 }, __self: this }, this.state.virtualList.body))));
+
+
+
+    }} renders and matches our snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to Loomi UI
+    </h1>
+  </header>
+  <p
+    className="App-intro"
+  >
+    Demo implementation 
+    <code>
+      Redux
+    </code>
+     Happy Coding :).
+  </p>
+  <button
+    className="checkClick"
+    onClick={[Function]}
+  >
+    Get Assist Data
+  </button>
+  <ul>
+    <li />
+    <li />
+    <li />
+  </ul>
+</div>
+`;
+
+exports[`class App extends _react.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            virtualList: [] };
+
+    }
+
+    componentWillMount() {
+        // this.getAll();
+    }
+
+    getAll() {
+
+        let currentThis = this;
+        this.props.getAllAssist().
+        then(function (res) {
+            data = res.payload.data;
+            currentThis.setState({ virtualList: data });
+        }, function (err) {
+            console.log("res", err);
+            alert(err);
+        });
+
+    }
+
+    render() {
+        console.log(this.state.virtualList);
+        return (
+            _react2.default.createElement('div', { className: 'App', __source: { fileName: _jsxFileName, lineNumber: 36 }, __self: this },
+                _react2.default.createElement('header', { className: 'App-header', __source: { fileName: _jsxFileName, lineNumber: 37 }, __self: this },
+                    _react2.default.createElement('img', { src: _logo2.default, className: 'App-logo', alt: 'logo', __source: { fileName: _jsxFileName, lineNumber: 38 }, __self: this }),
+                    _react2.default.createElement('h1', { className: 'App-title', __source: { fileName: _jsxFileName, lineNumber: 39 }, __self: this }, 'Welcome to Loomi UI')),
+
+                _react2.default.createElement('p', { className: 'App-intro', __source: { fileName: _jsxFileName, lineNumber: 41 }, __self: this }, 'Demo implementation ',
+                    _react2.default.createElement('code', { __source: { fileName: _jsxFileName, lineNumber: 42 }, __self: this }, 'Redux'), ' Happy Coding :).',
+                    _react2.default.createElement(_ShallowWorld2.default, { name: 'Pranav', __source: { fileName: _jsxFileName, lineNumber: 43 }, __self: this })),
+
+                _react2.default.createElement('button', { className: 'checkClick', onClick: () => this.getAll(), __source: { fileName: _jsxFileName, lineNumber: 45 }, __self: this }, 'Get Assist Data'),
+                _react2.default.createElement('ul', { __source: { fileName: _jsxFileName, lineNumber: 46 }, __self: this },
+                    _react2.default.createElement('li', { __source: { fileName: _jsxFileName, lineNumber: 47 }, __self: this }, this.state.virtualList.id),
+                    _react2.default.createElement('li', { __source: { fileName: _jsxFileName, lineNumber: 48 }, __self: this }, this.state.virtualList.title),
+                    _react2.default.createElement('li', { __source: { fileName: _jsxFileName, lineNumber: 49 }, __self: this }, this.state.virtualList.body))));
+
+
+
+    }} renders and matches our snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to Loomi UI
+    </h1>
+  </header>
+  <p
+    className="App-intro"
+  >
+    Demo implementation 
+    <code>
+      Redux
+    </code>
+     Happy Coding :).
+    <div>
+      This is just a test for shallow 
+      Pranav
+    </div>
+  </p>
+  <button
+    className="checkClick"
+    onClick={[Function]}
+  >
+    Get Assist Data
+  </button>
+  <ul>
+    <li />
+    <li />
+    <li />
+  </ul>
+</div>
+`;
+
+exports[`class App extends _react.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            virtualList: [] };
+
+    }
+
+    componentWillMount() {
+        // this.getAll();
+    }
+
+    getAll() {
+
+        let currentThis = this;
+        this.props.getAllAssist().
+        then(function (res) {
+            data = res.payload.data;
+            currentThis.setState({ virtualList: data });
+        }, function (err) {
+            console.log("res", err);
+            alert(err);
+        });
+
+    }
+
+    render() {
+        console.log(this.state.virtualList);
+        return (
+            _react2.default.createElement('div', { className: 'App', __source: { fileName: _jsxFileName, lineNumber: 37 }, __self: this },
+                _react2.default.createElement('header', { className: 'App-header', __source: { fileName: _jsxFileName, lineNumber: 38 }, __self: this },
+                    _react2.default.createElement('img', { src: _logo2.default, className: 'App-logo', alt: 'logo', __source: { fileName: _jsxFileName, lineNumber: 39 }, __self: this }),
+                    _react2.default.createElement('h1', { className: 'App-title', __source: { fileName: _jsxFileName, lineNumber: 40 }, __self: this }, 'Welcome to Loomi UI')),
+
+                _react2.default.createElement('p', { className: 'App-intro', __source: { fileName: _jsxFileName, lineNumber: 42 }, __self: this }, 'Demo implementation ',
+                    _react2.default.createElement('code', { __source: { fileName: _jsxFileName, lineNumber: 43 }, __self: this }, 'Redux'), ' Happy Coding :).'),
+
+                _react2.default.createElement(_ShallowWorld2.default, { name: 'Pranav', __source: { fileName: _jsxFileName, lineNumber: 45 }, __self: this }),
+                _react2.default.createElement('button', { className: 'checkClick', onClick: () => this.getAll(), __source: { fileName: _jsxFileName, lineNumber: 46 }, __self: this }, 'Get Assist Data'),
+                _react2.default.createElement('ul', { __source: { fileName: _jsxFileName, lineNumber: 47 }, __self: this },
+                    _react2.default.createElement('li', { __source: { fileName: _jsxFileName, lineNumber: 48 }, __self: this }, this.state.virtualList.id),
+                    _react2.default.createElement('li', { __source: { fileName: _jsxFileName, lineNumber: 49 }, __self: this }, this.state.virtualList.title),
+                    _react2.default.createElement('li', { __source: { fileName: _jsxFileName, lineNumber: 50 }, __self: this }, this.state.virtualList.body))));
+
+
+
+    }} renders and matches our snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to Loomi UI
+    </h1>
+  </header>
+  <p
+    className="App-intro"
+  >
+    Demo implementation 
+    <code>
+      Redux
+    </code>
+     Happy Coding :).
+  </p>
+  <div>
+    <strong>
+      This is just a test for shallow 
+      Pranav
+    </strong>
+  </div>
+  <button
+    className="checkClick"
+    onClick={[Function]}
+  >
+    Get Assist Data
+  </button>
+  <ul>
+    <li />
+    <li />
+    <li />
+  </ul>
+</div>
+`;
